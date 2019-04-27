@@ -50,13 +50,17 @@ nav a:hover {
     margin: 1em 0 0 1em;
     border: 1px solid darkgreen;
     background-color: white;
+    width: 18em;
+    box-sizing: border-box;
 
-
+}
+#calendar ul{
+  list-style: none;
+  padding-left: 0.5em;
 
 }
 #calendar li{
     color: darkgreen;
-
     font-size: 12
 }
 
@@ -70,12 +74,22 @@ h2,h3{
       margin-left: 8em;
 }
 .left{
-  float=left;
+  float: left;
 
 }
+.right{
+  float: right;
+  margin-left: 1em;
+  
+}
+
+section{
+  margin-left: 19em;
+  padding: 1em;
 
 
 
+}
 /*
   :link { color: #0000EE; }
   :visited { color: #551A8B; } */
