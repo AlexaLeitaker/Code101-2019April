@@ -1,11 +1,6 @@
 body {
   background-color: aquamarine;
   margin: 0;
-
-
-
-
-
 }
 h1{
   color:darkgreen;
@@ -15,11 +10,6 @@ h1{
   font-family: 'Lobster', cursive;
   font-family: 'Pacifico', cursive;
   font-size: 5em;
-
-
-
-
-
 }
 header{
   background-color: white;
@@ -31,38 +21,59 @@ header{
 
   }
 
-  ul{
+  na ul{
     margin: 0;
-
-
-
   }
 
-  li{
+  nav li{
 
     display: inline-block;   /* Moves elements to be organized horizontally */
     /* background-color: red; */
     padding: 1em 6em;
-    font-size: 1em
-    font-family: Pacifico;
-
-
   }
 
-  a{
+  nav a{
     color: white;
     text-decoration: none;
-    adding: 1em 6em;
-
+    font-size: 1em;
+    font-family: Pacifico;
     display: inline-block;
+}
 
-
-  }
-
-a:hover {
-    font-weight: bold;
+nav a:hover {
+    /* font-weight: bold; */
 
 }
+#calendar{
+    float: left;
+    padding: .5em;
+    margin: 1em 0 0 1em;
+    border: 1px solid darkgreen;
+    background-color: white;
+
+
+
+}
+#calendar li{
+    color: darkgreen;
+
+    font-size: 12
+}
+
+h2,h3{
+
+    margin: 0;
+}
+
+
+#support{
+      margin-left: 8em;
+}
+.left{
+  float=left;
+
+}
+
 
 
 /*
