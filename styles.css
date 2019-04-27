@@ -13,12 +13,10 @@ h1{
 }
 header{
   background-color: white;
-
   }
 
   nav{
     background-color: darkgreen;
-
   }
 
   na ul{
@@ -69,27 +67,48 @@ h2,h3{
     margin: 0;
 }
 
-
 #support{
       margin-left: 8em;
 }
 .left{
   float: left;
-
+margin-right: 1em;
 }
 .right{
   float: right;
   margin-left: 1em;
-  
 }
-
 section{
   margin-left: 19em;
   padding: 1em;
+}
 
-
+section::after{
+  content:"";
+  display: block;
+  clear: both;
 
 }
-/*
-  :link { color: #0000EE; }
-  :visited { color: #551A8B; } */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+#footer {
+  position:absolute;
+  bottom: 0;
+  justify-content: center;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  background-color: darkgreen;
+
+}
+
+h5{
+  margin:0;
+  color: white;
+  font-family: Indie Flower;
+  font-size: 12
+}
