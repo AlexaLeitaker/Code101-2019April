@@ -1,6 +1,70 @@
 body {
-  background-color: aquamarine
+  background-color: aquamarine;
+  margin: 0;
+
+
 
 
 
 }
+h1{
+  color:darkgreen;
+  padding: 0;
+  margin: 0;   /* Removes space above box */ */
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Pacifico', cursive;
+  font-size: 5em;
+
+
+
+
+
+}
+header{
+  background-color: white;
+
+  }
+
+  nav{
+    background-color: darkgreen;
+
+  }
+
+  ul{
+    margin: 0;
+
+
+
+  }
+
+  li{
+
+    display: inline-block;   /* Moves elements to be organized horizontally */
+    /* background-color: red; */
+    padding: 1em 6em;
+    font-size: 1em
+    font-family: Pacifico;
+
+
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+    adding: 1em 6em;
+
+    display: inline-block;
+
+
+  }
+
+a:hover {
+    font-weight: bold;
+
+}
+
+
+/*
+  :link { color: #0000EE; }
+  :visited { color: #551A8B; } */
